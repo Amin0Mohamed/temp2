@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tab .nav>li>a,
+#brand .navbar-default .navbar-nav>li>a ,
+.navbar-default .navbar-brand ,
+#car .carousel-inner i,
+#car h2
+ {
+    color: #FF0;
+  }
+
+
+#car h2:before{
+	background-color:#ff0;
+}

@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**********************************************/
+.tool
+{
+	
+	
+	color:#FFFBF0;
+	position:fixed;
+	z-index:9999;
+	
+}
+.tool .color
+{
+  	float:left;
+	border:2px solid #E9E9E9;
+	background-color:#000;
+}
+.tool .color ul li{
+   display:inline-block;
+   width:20px;
+   height:20px;
+   background-color:#f00;
+   margin:10px 5px 0px;
+ 	
+}
+.tool .shape
+{
+    float:left;
+	background-color:#E9E9E9;
+	
+  	
+}
+/**********************************************/
+*
+{
+	transition:all 0.9s;
+}
+body{
+  
+     font-size: 16px;
+    font-family: "segoe ui light";
+  box-sizing:border-box;
+  
+	overflow:auto;
+}
+#brand
+{
+	background-image:url(../images/youtube-bg.jpg);
+	height:660px;
+	background-size:100% 100%;
+	margin-bottom:30px;
+	
+}
+#brand .navbar-default {
+    background-color:transparent;
+	border:none;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+	
+}
+#brand .navbar-default .navbar-nav>li>a , .navbar-default .navbar-brand  {
+	font-size:20px;
+	text-transform:capitalize;
+	
+}
+#brand .navbar-default .navbar-nav>li>a:hover {
+    color: #ccc;
+}
+#brand .cover {
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	background-size:100% 100%;
+	
+	}
+/***********************tabs*******************************************/
+#tab{margin-bottom:30px;}
+#tab .nav-tabs {width:60%;margin:auto;}	
+#tab .nav>li>a {margin-right:10px;padding-right:50px;padding-left:50px;}
+#tab .tab-content>.active{
+    display: block;
+	margin-bottom:50px;
+}
+#tab .tab-content{
+    display: block;
+	margin-bottom:50px;
+}
+
+.page
+{
+ position:relative;	
+ overflow:hidden;
+}
+.pageinfo
+{
+  width:100%;
+  height:100%;	
+  position:absolute;
+  left:0px;
+  top:-100%;
+  background-color:rgba(255,251,240,0.5);
+  text-align:center;
+  color:#FF0;
+}
+.page:hover .pageinfo
+{
+  width:100%;
+  height:100%;	
+  position:absolute;
+  left:0px;
+  top:0px;
+  
+  color:#000;
+ 
+  
+}
+
+
+.pageinfo h3{ margin:50% auto 5px;}
+
+
+/***********************form*******************************************/
+#form{margin-bottom:70px;}
+/***********************carousal*******************************************/
+
+#car{
+	margin-top:50px;
+	padding:75px 0px;
+	background-color:#999;
+	
+	}
+#car .carousel-inner p{text-align:center;}
+#car .carousel-inner i{ margin-left:45%;margin-bottom:30px;}
+
+#car .carousel-indicators li{width:50px;height:50px; position:relative; top:100px;border-radius:50%;opacity:0.5;}
+#car .carousel-indicators li.active{transform:scale(1.1,1.1);opacity:1;}
+#car .carousel-control.left ,#car .carousel-control.right
+{
+	color:#E9E9E9;
+	background-image:none;
+}
+#car h2{
+  font-size:30px;
+  font-weight:900;
+  position:relative;
+}
+#car h2:before{
+  content:"";
+	width:30%;
+	height:4px;
+	position:absolute;
+	bottom:100%;
+	left:0px;
+  
+}
+/***********************loading .....*******************************************/
+/*.load .cover
+{
+ background-color:#222;
+ color:#fff;
+ position:fixed;
+ top:0px;
+ left:0px;
+ width:100%;
+ height:100%;
+ z-index:99999;
+}
+ .load .cover .spinner {
+  width: 80px;
+  height: 80px;
+  background-color: #F0F;
+
+  margin: 300px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+*/
+
+
+/*************scrool**************************/
+.scrool {
+	width:50px;
+	height:50px;
+	background-color:#777;
+	color:#FFDF00;
+	text-align:center;
+	display:none;
+	position:fixed;
+	top:500px;
+	right:50px;
+	z-index:9999999999;
+	
+}
